@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Page</title>
+    <link rel="icon" href="images/logo.png" type="image/icon type" class="logo">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="javascript/common.js"></script>
+</head>
+<body>
+<style>
+.logo,.icon,.header1{
+    display:inline-block;
+}
+
+.img1{
+    height: 100%;
+    width: 100%;
+}
+
+.img2{
+    height:80%;
+    width: 80%;
+    
+}
+
+.header1{
+    width:100%;
+    height:auto;
+}
+.logo {
+    float:left; 
+    /* background:Red; */
+    width:20%;
+   
+}
+.slogan{
+    float:left; 
+    width:50%;
+    height:70%;
+    margin-left: 15%;
+    margin-bottom: 1%;
+}
+.icon{
+    float:right;  
+}
+.container{
+  margin-top: 20px;
+}
+.query{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.content{
+    display:inline-block;
+}
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;  
+    margin-left: 25%;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 40%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .popular,.active{
+    margin-top: 3%;
+  }
+
+  .popular-table,.active-table {
+    text-align: center;
+  }
+  .container1 {
+    width:40%;
+    
+    display:inline-block;
+    /* background-color:#f6f7fc; */
+    height: 100%;
+    padding-bottom:20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 10%;
+    /* padding-top:1%; */
+  }
+  
+  .new{
+      position: relative;
+      left:10%;
+      bottom:30%;
+      width:70%;
+      height:fit-content;
+      align-content: center;
+      border-radius: 0.5px;
+      border-color: black;
+      border-width:0.5px;
+      background-color: #fff;
+      padding: 20px;
+      
+  }
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  
+  button {
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  .content404{
+    /* margin-left:25%; */
+    margin-top:10%;
+    text-align: center;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #000000;
+  }
+</style>
+    <div class="outer">
+        <div class="header1 row">
+            <nav class="navbar navbar-dark bg-black navbar-brand">
+                <div class="logo col-md-2 ">
+                    <img class="img1" src="images/logo.png" alt="logo">
+                    <!-- <img class="img2" src="images/profile.png" alt="profile"> -->
+                </div>
+                
+                <div class="icon col-md-2 ">
+                    <img class="img2" src="images/profile.png" alt="profile">
+
+                </div>
+                
+
+            </nav>
+
+        </div>
+        <div class="content404">
+            <!-- <img src="images/unlock-clipart.png" style="width:25%;height:25%;float:right;margin-right: 13%;margin-top: 7%;"> -->
+        <h1 class="content404" style="font-size:700%; "><b>404</b></h1>
+        <h4  style="font-size:200%;"><i>The page you were looking for is not found &#128533;</i></h4>
+        <a href="#" onclick='change()'>Go back</a>
+        <script>
+        function change(){
+        	window.history.back();
+        }
+        </script>
+    
+    </div>
+</div>
+</body>
+</html>

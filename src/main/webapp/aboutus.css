@@ -1,0 +1,67 @@
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .footer1 {
+    position: relative;
+    /* margin-top: 400px; */
+    width: 100%;
+    bottom: 0px;
+    left: 0;
+    background: #222;
+    color: white;
+    height: 100px;
+  }
+
+  .who {
+    font-size: 35px;
+  }
+
+  .options {
+    font-size: 20px;
+    padding-left: 20px;
+    list-style-type: none;
+  }
+
+.aboutus {
+  font-size: 20px;
+}
+
+.aboutusimg {
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.img2 {
+  height:80%;
+  width: 80%;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  margin-top:0%;
+  margin-bottom:10px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  transition: max-height 0.66s ease-out;
+  margin-bottom:10px;
+}

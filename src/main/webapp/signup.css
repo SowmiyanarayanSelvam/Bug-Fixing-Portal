@@ -1,0 +1,94 @@
+/* form {
+    border: 3px solid #f1f1f1;
+  }
+   */
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .float-container{
+      height: fit-content;
+  }
+  
+  
+  .imgcontainer {
+    width:50%;
+    height: 100%;
+    float:left;
+    text-align: center;
+    /* margin: 24px 0 12px 0; */
+
+  }
+  
+  
+  .container {
+    width:40%;
+    float:right;
+    
+    /* background-color:#f6f7fc; */
+    height: 100%;
+    padding-bottom:20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* padding-top:1%; */
+  }
+  
+  .new{
+      position: relative;
+      left:10%;
+      bottom:30%;
+      width:70%;
+      height:fit-content;
+      align-content: center;
+      border-radius: 0.5px;
+      border-color: black;
+      border-width:0.5px;
+      background-color: #fff;
+      padding: 20px;
+      
+  }
+  
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    margin-left: 50px;
+    /* content: "&#10040;"; */
+  }
+
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    margin-left: 50px;
+    /* content: "&#10060;"; */
+  }

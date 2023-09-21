@@ -1,0 +1,91 @@
+.logo,.icon,.header1{
+    display:inline-block;
+}
+
+.img1{
+    height: 100%;
+    width: 100%;
+}
+.img2{
+    height:80%;
+    width: 80%;
+    
+}
+
+.header1{
+    width:100%;
+    height:auto;
+}
+.logo {
+    float:left; 
+    /* background:Red; */
+    width:20%;
+   
+}
+.slogan{
+    float:left; 
+    width:50%;
+    height:70%;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+.icon{
+    float:right;  
+}
+
+
+
+
+/* body {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+  } */
+  
+  h1,
+  p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+  
+  .app {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+  }
+  .radio {
+    display: none;
+  }
+  .radio ~ span {
+    font-size: 3rem;
+    filter: grayscale(100);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .radio:checked ~ span {
+    filter: grayscale(0);
+    font-size: 4rem;
+  }
+  
+
